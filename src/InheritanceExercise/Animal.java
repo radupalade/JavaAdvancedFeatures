@@ -43,8 +43,8 @@ public class Animal {
 
     @Override
     public String toString() {
-        return vegetarian +
-                this.numberOfLegs +
+        return vegetarian + " " +
+                this.numberOfLegs + " " +
                 this.age;
     }
 

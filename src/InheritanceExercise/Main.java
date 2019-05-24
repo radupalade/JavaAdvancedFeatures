@@ -20,6 +20,9 @@ public class Main {
         dog.bark();
 
         animal2.eat();
+
+        System.out.println(animal);
+        System.out.println(animal2);
     }
 
 

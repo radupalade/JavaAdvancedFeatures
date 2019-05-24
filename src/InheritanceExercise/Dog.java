@@ -2,7 +2,7 @@ package InheritanceExercise;
 
 public class Dog extends Animal {
 
-    public String color;
+    private String color;
 
     public Dog(int age, int numberOfLegs, String vegetarian, String color) {
         super(age, numberOfLegs, vegetarian);
@@ -23,13 +23,9 @@ public class Dog extends Animal {
     }
 
     @Override
-    public String toString(){
-        return super.toString() + color;
+    public String toString() {
+        return super.toString() + " " + color;
     }
-
-
-
-
 
 
 }
